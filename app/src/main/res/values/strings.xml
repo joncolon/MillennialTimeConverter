@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Millennial_Time_Converter</string>
+    <string name="how_many_weeks">How many weeks have passed?</string>
+    <string name="millennial_time_title">MILLENIAL TIME CONVERTER</string>
+</resources>

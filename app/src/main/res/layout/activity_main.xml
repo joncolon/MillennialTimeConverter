@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/vhsbackground"
+    tools:context="nyc.c4q.jonathancolon.millennial_time_converter.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MILLENNIAL TIME CONVERTER"
+        android:id="@+id/millennialtimetitle"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textColor="#eceff1"
+        android:textSize="35sp"
+        android:background="#161616"
+        android:layout_weight="0.00"
+        android:forceHasOverlappingRendering="false"
+        android:textStyle="bold"
+        android:typeface="monospace"
+        android:paddingBottom="10dp"
+        android:paddingTop="5dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/imageView"
+        android:layout_gravity="bottom|center_horizontal"
+        android:src="@drawable/glasses"
+        android:background="#ffffff"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="80dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="1dp" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/how_many_weeks"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="5dp"
+        android:textColor="#eceff1"
+        android:textStyle="bold"
+        android:typeface="monospace" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/weeksPassed"
+        android:maxLength="4"
+        android:layout_gravity="center_horizontal"
+        android:hint="Enter a number: "
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:textColor="#ffffff"
+        android:inputType="number"
+        android:textCursorDrawable="@null"
+        android:backgroundTint="#ffffff"
+        android:drawableTint="#ffffff"
+        android:textColorHighlight="@color/accent_material_light"
+        android:textColorHint="#807fc0be" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:text="convert"
+        android:id="@+id/convertButton"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="40dp"
+        android:textSize="10dp"
+        android:background="@color/button_material_light"
+        android:singleLine="false"
+        android:typeface="monospace" />
+
+    <TextView
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Convert Weeks into Millennial Years!"
+        android:id="@+id/result"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="normal"
+        android:typeface="monospace"
+        android:textColor="@color/colorBackground"
+        android:gravity="center" />
+
+
+
+</LinearLayout>
